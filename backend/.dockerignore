@@ -5,6 +5,7 @@ __pycache__
 venv
 chroma_db
 uploads
-*.md
+README.md
 .git
 .gitignore
+*.md
