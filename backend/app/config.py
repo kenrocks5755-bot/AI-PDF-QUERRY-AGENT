@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     chroma_persist_dir: str = os.path.join(os.path.dirname(os.path.dirname(__file__)), "chroma_db")
     upload_dir: str = os.path.join(os.path.dirname(os.path.dirname(__file__)), "uploads")
     openrouter_base_url: str = "https://openrouter.ai/api/v1"
-    llm_model: str = "deepseek/deepseek-v4-flash:free"
+    llm_model: str = "openai/gpt-4o-mini"
     chunk_size: int = 1000
     chunk_overlap: int = 200
     k_retrieval: int = 4
